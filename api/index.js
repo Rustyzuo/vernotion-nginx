@@ -8,7 +8,7 @@ const NOTION_HOST = 'www.notion.so';
 
 // !!! 注意：这里换成你后面在 Vercel 获得的域名，不带 https://
 // 例如：'project-name.vercel.app'
-const WORKERS_HOST = 'vernotion-nginx.vercel.app'; 
+const WORKERS_HOST = 'vernotion.rustyzuo.top'; 
 
 export default async function handler(request) {
   try {
@@ -109,4 +109,5 @@ export default async function handler(request) {
       }
     });
   }
+
 }
