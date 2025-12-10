@@ -1,4 +1,6 @@
 {
-  "name": "notion-proxy",
-  "version": "1.0.0"
+  "name": "vernotion-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module" 
 }
